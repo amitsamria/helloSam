@@ -36,10 +36,10 @@ components:
       targetPort: 8080
     - exposure: none
       name: debug
-      targetPort: 5858
+      targetPort: 5005
     env:
     - name: DEBUG_PORT
-      value: "5858"
+      value: "5005"
     image: registry.access.redhat.com/ubi9/openjdk-17:1.20-2.1721752931
     memoryLimit: 768Mi
     mountSources: true
